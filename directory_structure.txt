@@ -1,0 +1,39 @@
+# Configuration files
+config/
+  default.yaml
+  planar_2r.yaml
+  planar_3r.yaml
+  spatial_6r.yaml
+  benchmark.yaml
+
+# Data and cache directories
+data/
+cache/
+output/
+
+# Assets for documentation and demos
+assets/
+  images/
+  videos/
+  plots/
+
+# Launch files for ROS 2 (if applicable)
+launch/
+
+# Robot description files
+robots/
+  urdf/
+  meshes/
+  moveit/
+
+# Jupyter notebooks for tutorials
+notebooks/
+  basic_ik_tutorial.ipynb
+  advanced_features.ipynb
+  benchmarking_guide.ipynb
+
+# Demo scripts
+demo/
+  interactive_demo.py
+  trajectory_demo.py
+  benchmark_demo.py
